@@ -1,3 +1,13 @@
+# Images
+
+
+## step 1:
+First we donwnlaod the images `1.png` and `2.png`.
+
+## step 2:
+
+We see it some pixels manipulation done. So, I wrote a code python.py to get the flag.
+
 ```python
 from PIL import Image
 
@@ -16,4 +26,15 @@ for i in range(pixels):
 		else:
 			pix1[i,j] = 255
 		
-i1.save("flag.png")```
+i1.save("flag.png")
+```
+
+## Step 3:
+
+after running the code we get the image:
+
+![Image](https://github.com/user-attachments/assets/1074d7dc-2bfc-4b5e-98c0-e3a7d59fb9e5)
+
+## step 4:
+
+Finally, the flag becomes: CTF{I_L0V3_PYTH0N}
